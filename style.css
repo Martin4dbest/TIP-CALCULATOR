@@ -82,10 +82,6 @@ input:focus{
 .content {
     margin-top: 5%;
     flex-direction: row;
-    /* display: grid; */
-    border: 1px solid red;
-    /* column-gap: 10px; */
-    /* grid-template-columns: auto auto ; */
     border-radius: 15px;
 
     /* margin-top: 5rem; */
@@ -105,7 +101,7 @@ input:focus{
     /* max-width:32vw; */
     padding: .5rem;
 
-    /* margin-top: 5%; */
+    margin-top: 15px;
     /* width: 80vw; */
     color: hsl(186, 14%, 43%);
 }
@@ -124,7 +120,8 @@ input:focus{
     /* max-width:32vw; */
 
     /* width: 80vw; */
-    margin: 5% 0;
+    padding-top: 45px;
+    /* margin: 5% 0; */
     color: hsl(186, 14%, 43%);
 }
 
@@ -143,7 +140,6 @@ input:focus{
 .buttons {
     /* max-width:32vw; */
     /* column-gap: 1px; */
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3,9vw);
     align-items: center;
@@ -278,6 +274,7 @@ button:hover {
 
     .header {
         font-size: 35px;
+        text-align: center;
     }
     .content {
         margin-bottom: 7rem;
@@ -293,20 +290,14 @@ button:hover {
         width: inherit;
     }
     .content>div {
-        /* margin-top: 20rem; */
-        border: 1px solid blue;
-        /* height: 400px; */
         width: 90vw;
 
         
         display: flex; 
         flex-direction: column;
-        /* align-items: center; */
     }
     .content>div:first-child {
         width: 90vw;
-        
-        /* width: 50%; */
     }
     .content_footer,
     .content_footer div {
@@ -315,7 +306,8 @@ button:hover {
         /* justify-content: space-between; */
     }
     .content_footer {
-        max-height:52vh;
+        margin-top: 40px;
+        max-height:42vh;
       
 
     }
@@ -328,13 +320,6 @@ button:hover {
         /* width: 36vw; */
         font-size: 20px;
     }
-/* My input */
-    .grid-item {
-        border: 1px solid salmon;
-        /* max-width: 100vw; */
-    }
-
-
 
     .content_amount,
     .content_icon {
@@ -369,15 +354,14 @@ button:hover {
         margin-top: 50px;
 
         /* margin: 1% 0; */
-    /* } */ 
+    /* } */
+    #text2{
+        margin-top: 50px;
+    } 
     .buttons {
         width: 89vw;
         grid-template-columns: repeat(2,49vw);
-        border: 3px solid rosybrown;
-        
-
-
-        /* width: 35vw; */
+       
         height: 18vh;
     }
     .buttons>button {
