@@ -8,7 +8,7 @@ Select your desired tip percentage using the slider or by typing it in the input
 The calculated tip amount and total bill, including the tip, will be displayed automatically.
 
 <h2>Features</h2>
-Simple and user-friendly interface.
+It is simple and user-friendly interface.
 Can calculate tips based on a percentage or a fixed amount.
 Allows you to split the total bill among multiple people, with the option to round up or down.
 Provides clear and concise feedback on the calculated tip and total amount.
